@@ -2,7 +2,7 @@ package org.example;
 
 public class Car {
 
-    String name;
+    String name = "test";
     double fuelLevel;
     double mileage;
     double totalTraveledDistance;
@@ -11,4 +11,7 @@ public class Car {
     int doorCount;
     boolean damaged;
     String color;
+
+    //has a relationship(aggregation)
+    Engine engine;
 }

@@ -16,6 +16,18 @@ public class App
         carReference.doorCount = 1;
         carReference.color = "Red";
 
+        Engine engine1 = new Engine();
+          engine1.manufacturer= "Ferarri";
+        engine1.capacity = 3000;
+
+        carReference.engine = engine1;
+
+         System.out.printf("Engine1 capacity: " + engine1.capacity);
+         System.out.printf("Car engine capacity after update: " + carReference.engine.capacity);
+
+         engine1.capacity = 5000;
+         System.out.printf("Car engine capacity: " + carReference.engine.capacity);
+
         System.out.println("Properties of car" + carReference.name);
         System.out.println("Max speed: " + carReference.maxSpeed);
         System.out.println("Fuel level: " + carReference.fuelLevel);
