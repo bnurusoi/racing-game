@@ -1,17 +1,8 @@
 package org.example;
 
-public class Car {
-
-    String name = "test";
-    double fuelLevel;
-    double mileage;
-    double totalTraveledDistance;
-    double maxSpeed;
+public class Car extends Autovehicle {
 
     int doorCount;
-    boolean damaged;
-    String color;
 
-    //has a relationship(aggregation)
-    Engine engine;
 }
+
